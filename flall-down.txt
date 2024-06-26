@@ -1,0 +1,81 @@
+Single Post Request
+└── single-{post-type}.php
+    └── single.php
+        └── singular.php
+            └── index.php
+
+Page Request
+└── page-{slug}.php
+    └── page-{id}.php
+        └── page.php
+            └── singular.php
+                └── index.php
+
+Category Archive Request
+└── category-{slug}.php
+    └── category-{id}.php
+        └── category.php
+            └── archive.php
+                └── index.php
+
+Tag Archive Request
+└── tag-{slug}.php
+    └── tag-{id}.php
+        └── tag.php
+            └── archive.php
+                └── index.php
+
+Author Archive Request
+└── author-{nicename}.php
+    └── author-{id}.php
+        └── author.php
+            └── archive.php
+                └── index.php
+
+Date Archive Request
+└── date.php
+    └── archive.php
+        └── index.php
+
+Custom Post Type Archive Request
+└── archive-{post-type}.php
+    └── archive.php
+        └── index.php
+
+Single Custom Post Type Request
+└── single-{post-type}.php
+    └── single.php
+        └── singular.php
+            └── index.php
+
+Search Results Request
+└── search.php
+    └── index.php
+
+404 Error Page Request
+└── 404.php
+    └── index.php
+
+Front Page Request
+└── front-page.php
+    └── home.php (for blog posts index if no static front page is set)
+        └── index.php
+
+Blog Posts Index Page Request
+└── home.php
+    └── index.php
+
+
+Explanation
+Single Post Request: WordPress looks for single-{post-type}.php, then single.php, then singular.php, and finally index.php.
+Page Request: WordPress looks for page-{slug}.php, then page-{id}.php, then page.php, then singular.php, and finally index.php.
+Category Archive Request: WordPress looks for category-{slug}.php, then category-{id}.php, then category.php, then archive.php, and finally index.php.
+Tag Archive Request: WordPress looks for tag-{slug}.php, then tag-{id}.php, then tag.php, then archive.php, and finally index.php.
+Author Archive Request: WordPress looks for author-{nicename}.php, then author-{id}.php, then author.php, then archive.php, and finally index.php.
+Date Archive Request: WordPress looks for date.php, then archive.php, and finally index.php.
+Custom Post Type Archive Request: WordPress looks for archive-{post-type}.php, then archive.php, and finally index.php.
+Single Custom Post Type Request: WordPress looks for single-{post-type}.php, then single.php, then singular.php, and finally index.php.
+Search Results Request: WordPress looks for search.php, and finally index.php.
+404 Error Page Request: WordPress looks for 404.php, and finally index.php.
+Front Page Request: WordPress looks for front-page.php, then home.php (if no static front page is set), and finally index.php.
+Blog Posts Index Page Request: WordPress looks for home.php, and finally index.php.
