@@ -1,0 +1,40 @@
+your-theme/
+├── 404.php
+├── archive.php
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   └── custom.css
+│   ├── images/
+│   └── js/
+│       ├── script.js
+│       └── custom.js
+├── comments.php
+├── footer.php
+├── functions.php
+├── header.php
+├── inc/
+│   ├── customizer.php
+│   ├── custom-post-types.php
+│   └── template-tags.php
+├── index.php
+├── languages/
+│   ├── en_US.mo
+│   └── en_US.po
+├── page.php
+├── parts/
+│   ├── content.php
+│   ├── content-single.php
+│   └── content-page.php
+├── screenshot.png
+├── search.php
+├── sidebar.php
+├── single.php
+├── template-parts/
+│   ├── content/
+│   │   └── content-excerpt.php
+│   └── header/
+│       └── header-default.php
+├── front-page.php
+├── home.php
+└── style.css
