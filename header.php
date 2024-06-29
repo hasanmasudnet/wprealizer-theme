@@ -64,7 +64,15 @@
           <div class="main-menu">
             <nav>
               <ul>
-                <li>
+              <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_id' => 'navbar-collapse-1',
+										'container_class'=>'navbar-collapse collapse navbar-right',
+										'menu_class'=>'nav navbar-nav',
+										'fallback_cb'=>false,
+										'items_wrap' => '%3$s',
+										'container'=>false,
+										'depth'=>'5', 
+									)); ?>
+                <!-- <li>
                   <a href="#0">Home <i class="fa-solid fa-angle-down"></i></a>
                   <ul class="sub-menu">
                     <li>
@@ -123,7 +131,7 @@
                     </li>
                   </ul>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li> -->
               </ul>
             </nav>
           </div>
