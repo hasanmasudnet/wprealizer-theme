@@ -1,0 +1,20 @@
+my-theme/
+├── template-parts/
+│   ├── content-page.php
+│   ├── content-post.php
+│   ├── content.php
+├── single.php
+├── page.php
+
+get_template_part('template-parts/content', 'page');
+
+get_template_part('template-parts/content', get_post_type());
+
+if (is_page()) 
+{
+  get_template_part('template-parts/content', 'page');
+} else 
+{
+                // Otherwise, load the template part based on the post type
+  get_template_part('template-parts/content', get_post_type());
+}
