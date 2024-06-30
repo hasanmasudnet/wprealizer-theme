@@ -1,0 +1,84 @@
+
+===================Theme Activate=========================
+If any theme activate or inactivate :
+option_id	option_name	option_value
+1	template	wprealizer-theme
+2	stylesheet	wprealizer-theme
+
+==================Any Update of theme====================
+store data as serialized data
+
+<?php
+$serialized_data = 'O:8:"stdClass":5:{s:12:"last_checked";i:1719474501;s:7:"checked";a:5:{s:5:"astra";s:5:"4.7.1";s:16:"twentytwentyfour";s:3:"1.1";s:17:"twentytwentythree";s:3:"1.4";s:15:"twentytwentytwo";s:3:"1.7";s:16:"wprealizer-theme";s:3:"1.0";}s:8:"response";a:0:{}s:9:"no_update";a:4:{s:5:"astra";a:6:{s:5:"theme";s:5:"astra";s:11:"new_version";s:5:"4.7.1";s:3:"url";s:35:"https://wordpress.org/themes/astra/";s:7:"package";s:53:"https://downloads.wordpress.org/theme/astra.4.7.1.zip";s:8:"requires";s:3:"5.3";s:12:"requires_php";s:3:"5.3";}s:16:"twentytwentyfour";a:6:{s:5:"theme";s:16:"twentytwentyfour";s:11:"new_version";s:3:"1.1";s:3:"url";s:46:"https://wordpress.org/themes/twentytwentyfour/";s:7:"package";s:62:"https://downloads.wordpress.org/theme/twentytwentyfour.1.1.zip";s:8:"requires";s:3:"6.4";s:12:"requires_php";s:3:"7.0";}s:17:"twentytwentythree";a:6:{s:5:"theme";s:17:"twentytwentythree";s:11:"new_version";s:3:"1.4";s:3:"url";s:47:"https://wordpress.org/themes/twentytwentythree/";s:7:"package";s:63:"https://downloads.wordpress.org/theme/twentytwentythree.1.4.zip";s:8:"requires";s:3:"6.1";s:12:"requires_php";s:3:"5.6";}s:15:"twentytwentytwo";a:6:{s:5:"theme";s:15:"twentytwentytwo";s:11:"new_version";s:3:"1.7";s:3:"url";s:45:"https://wordpress.org/themes/twentytwentytwo/";s:7:"package";s:61:"https://downloads.wordpress.org/theme/twentytwentytwo.1.7.zip";s:8:"requires";s:3:"5.9";s:12:"requires_php";s:3:"5.6";}}s:12:"translations";a:0:{}}';
+
+$unserialized_data = unserialize($serialized_data);
+print_r($unserialized_data);
+?>
+
+
+stdClass Object
+(
+    [last_checked] => 1719474501
+    [checked] => Array
+        (
+            [astra] => 4.7.1
+            [twentytwentyfour] => 1.1
+            [twentytwentythree] => 1.4
+            [twentytwentytwo] => 1.7
+            [wprealizer-theme] => 1.0
+        )
+
+    [response] => Array
+        (
+        )
+
+    [no_update] => Array
+        (
+            [astra] => Array
+                (
+                    [theme] => astra
+                    [new_version] => 4.7.1
+                    [url] => https://wordpress.org/themes/astra/
+                    [package] => https://downloads.wordpress.org/theme/astra.4.7.1.zip
+                    [requires] => 5.3
+                    [requires_php] => 5.3
+                )
+
+            [twentytwentyfour] => Array
+                (
+                    [theme] => twentytwentyfour
+                    [new_version] => 1.1
+                    [url] => https://wordpress.org/themes/twentytwentyfour/
+                    [package] => https://downloads.wordpress.org/theme/twentytwentyfour.1.1.zip
+                    [requires] => 6.4
+                    [requires_php] => 7.0
+                )
+
+            [twentytwentythree] => Array
+                (
+                    [theme] => twentytwentythree
+                    [new_version] => 1.4
+                    [url] => https://wordpress.org/themes/twentytwentythree/
+                    [package] => https://downloads.wordpress.org/theme/twentytwentythree.1.4.zip
+                    [requires] => 6.1
+                    [requires_php] => 5.6
+                )
+
+            [twentytwentytwo] => Array
+                (
+                    [theme] => twentytwentytwo
+                    [new_version] => 1.7
+                    [url] => https://wordpress.org/themes/twentytwentytwo/
+                    [package] => https://downloads.wordpress.org/theme/twentytwentytwo.1.7.zip
+                    [requires] => 5.9
+                    [requires_php] => 5.6
+                )
+
+        )
+
+    [translations] => Array
+        (
+        )
+
+)
+

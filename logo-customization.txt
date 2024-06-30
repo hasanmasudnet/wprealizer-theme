@@ -1,0 +1,12 @@
+This code will enable logo changing option in theme
+function my_theme_setup() {
+    // Add support for custom logo
+    add_theme_support('custom-logo', array(
+        'height'      => 130,
+        'width'       => 130,
+        'flex-height' => true,
+        'flex-width'  => true,
+    ));
+}
+add_action('after_setup_theme', 'my_theme_setup');
+

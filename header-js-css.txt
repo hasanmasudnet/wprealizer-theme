@@ -1,0 +1,25 @@
+
+If add 
+<?php get_header(); ?>
+
+it will include header.php
+
+=======>header.php<=======
+
+==>
+
+<?php wp_head(); ?>  
+it will add add admin script
+then 
+
+function my_theme_enqueue_styles() {
+    wp_enqueue_style('my-theme-style', get_stylesheet_uri());
+    wp_enqueue_style('my-theme-custom', get_template_directory_uri() . '/css/custom.css', array(), '1.0.0');
+    wp_enqueue_script('my-theme-custom-js', get_template_directory_uri() . '/js/custom.js', array('jquery'), '1.0.0', true);
+}
+add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
+
+==>
+// This line is within the WordPress core and triggers the action hook call automatically wp-includes\script-loader.php
+
+do_action('wp_enqueue_scripts');
