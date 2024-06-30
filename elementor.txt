@@ -1,0 +1,47 @@
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+
+<style>
+    /*! elementor - v3.22.0 - 26-06-2024 */
+    .elementor-widget-image{text-align:center}
+    .elementor-widget-image a{display:inline-block}
+    .elementor-widget-image a img[src$=".svg"]{width:48px}
+    .elementor-widget-image img{vertical-align:middle;display:inline-block}
+</style>										
+
+<img width="531" height="512" src="http://localhost/wp1/wp-content/uploads/2024/06/Screenshot_1.jpg" alt="" srcset="http://localhost/wp1/wp-content/uploads/2024/06/Screenshot_1.jpg 531w, http://localhost/wp1/wp-content/uploads/2024/06/Screenshot_1-300x289.jpg 300w" sizes="(max-width: 531px) 100vw, 531px" />													
+			
+<style>
+    /*! elementor - v3.22.0 - 26-06-2024 */
+    .elementor-heading-title{padding:0;margin:0;line-height:1}
+    .elementor-widget-heading 
+    .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading 
+    .elementor-heading-title.elementor-size-small{font-size:15px}
+    .elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}
+    .elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}
+    .elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}
+    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}
+</style>
+
+<h2>Add Your Heading Text Here</h2>
+
+============
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<style>/*! elementor - v3.22.0 - 26-06-2024 */<br />
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>
+<p>										<img width="531" height="512" src="http://localhost/wp1/wp-content/uploads/2024/06/Screenshot_1.jpg" alt="" srcset="http://localhost/wp1/wp-content/uploads/2024/06/Screenshot_1.jpg 531w, http://localhost/wp1/wp-content/uploads/2024/06/Screenshot_1-300x289.jpg 300w" sizes="(max-width: 531px) 100vw, 531px" />													</p>
+<style>/*! elementor - v3.22.0 - 26-06-2024 */<br />
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h2>Add Your Heading Text Here</h2>
+
+<!-- wp:paragraph -->
+<p>lorem dfas d ad asdasd asdas das asd asdfasdfas</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>dfsaasdasdas</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p> asdasd</p>
+<!-- /wp:paragraph -->
+=======================================
